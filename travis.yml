@@ -6,3 +6,4 @@ before_install:
 install: pip install --use-mirrors -r requirements.txt
 script: python tests/test.py unit
 build_environment: ubuntu1304
+

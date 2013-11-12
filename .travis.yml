@@ -1,9 +1,10 @@
 language: python
+build_environment: ubuntu1304
 python:
   - "2.7"
 before_install:
   - sudo apt-get install swig
 install: pip install --use-mirrors -r requirements.txt
 script: python tests/test.py unit
-build_environment: ubuntu1304
+
 
